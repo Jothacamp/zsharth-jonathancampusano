@@ -1,0 +1,64 @@
+/* Cambiar el color de fondo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Cambiar el color de fondo de las secciones */
+section {
+    padding: 80px 0;
+}
+
+/* Estilizar los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #46024d; /* Cambiar a un color más llamativo en el hover */
+}
+
+/* Estilizar el botón de alternar navegación en pantallas pequeñas */
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+/* Estilizar los títulos de sección */
+h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Colores y botones */
+#proyectos {
+    background-color: #f9f9f9;
+}
+
+/* estilo de botones */
+a, button {
+    background-color: #22c3eb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover, button:hover {
+    background-color: #a945e2; /* con esto se cambia el color no olvidar */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
